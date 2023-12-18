@@ -1,1 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Replica</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header
+      class="header d-flex align-items-center justify-content-between py-2"
+    >
+      <div class="logo">
+        <img src="assets/YouTube-Logo.wine.svg" alt="YouTube Logo" />
+      </div>
+      <div class="search-bar">
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Search"
+            aria-label="Search"
+            aria-describedby="button-addon2"
+          />
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">
+              <i class="fas fa-microphone"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="right-buttons">
+        <button class="btn btn-outline-secondary border-0" type="button">
+          <i class="fas fa-video"></i>
+          <span class="d-none d-md-inline">Create</span>
+        </button>
+        <button class="btn btn-outline-secondary border-0" type="button">
+          <i class="fas fa-bell"></i>
+          <span class="d-none d-md-inline">Notifications</span>
+        </button>
+        <button class="btn btn-outline-secondary border-0" type="button">
+          <div class="profile-avatar"></div>
+        </button>
+      </div>
+    </header>
 
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+          <nav class="sidebar">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-home"></i>
+                  <span>Home</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-film"></i>
+                  <span>Shorts</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-video"></i>
+                  <span>Subscriptions</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="col-sm-10">
+          <div class="container mt-4">
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card video-card">
+                  <div class="card-body">
+                    <div class="video-container">
+                      <object
+                        type="text/html"
+                        data="https://www.youtube.com/embed/CmzKQ3PSrow?si=NMecOVY6M-jQocY3"
+                        width="100%"
+                        height="200"
+                      ></object>
+                    </div>
+                    <div class="video-details">
+                      <h6 class="card-title rounded mt-2 mb-1">
+                        Lorem Ipsum 1
+                      </h6>
+                      <div class="user-details mb-1">
+                        <span class="user-placeholder"></span>
+                        <span class="ml-1">Username</span>
+                      </div>
+                      <div class="meta-info">
+                        <span class="views">1M views</span>
+                        <span class="separator">•</span>
+                        <span class="upload-date">1 week ago</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card video-card">
+                  <div class="card-body">
+                    <div class="video-container">
+                      <object
+                        type="text/html"
+                        data="https://www.youtube.com/embed/CmzKQ3PSrow?si=NMecOVY6M-jQocY3"
+                        width="100%"
+                        height="200"
+                      ></object>
+                    </div>
+                    <div class="video-details">
+                      <h6 class="card-title rounded mt-2 mb-1">
+                        Lorem Ipsum 2
+                      </h6>
+                      <div class="user-details mb-1">
+                        <span class="user-placeholder"></span>
+                        <span class="ml-1">Username</span>
+                      </div>
+                      <div class="meta-info">
+                        <span class="views">1.1M views</span>
+                        <span class="separator">•</span>
+                        <span class="upload-date">2 weeks ago</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card video-card">
+                  <div class="card-body">
+                    <div class="video-container">
+                      <object
+                        type="text/html"
+                        data="https://www.youtube.com/embed/CmzKQ3PSrow?si=NMecOVY6M-jQocY3"
+                        width="100%"
+                        height="200"
+                      ></object>
+                    </div>
+                    <div class="video-details">
+                      <h6 class="card-title rounded mt-2 mb-1">
+                        Lorem Ipsum 3
+                      </h6>
+                      <div class="user-details mb-1">
+                        <span class="user-placeholder"></span>
+                        <span class="ml-1">Username</span>
+                      </div>
+                      <div class="meta-info">
+                        <span class="views">1.2M views</span>
+                        <span class="separator">•</span>
+                        <span class="upload-date">3 weeks ago</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card video-card">
+                  <div class="card-body">
+                    <div class="video-container">
+                      <object
+                        type="text/html"
+                        data="https://www.youtube.com/embed/CmzKQ3PSrow?si=NMecOVY6M-jQocY3"
+                        width="100%"
+                        height="200"
+                      ></object>
+                    </div>
+                    <div class="video-details">
+                      <h6 class="card-title rounded mt-2 mb-1">
+                        Lorem Ipsum 3
+                      </h6>
+                      <div class="user-details mb-1">
+                        <span class="user-placeholder"></span>
+                        <span class="ml-1">Username</span>
+                      </div>
+                      <div class="meta-info">
+                        <span class="views">1.3M views</span>
+                        <span class="separator">•</span>
+                        <span class="upload-date">4 weeks ago</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card video-card">
+                  <div class="card-body">
+                    <div class="video-container">
+                      <object
+                        type="text/html"
+                        data="https://www.youtube.com/embed/CmzKQ3PSrow?si=NMecOVY6M-jQocY3"
+                        width="100%"
+                        height="200"
+                      ></object>
+                    </div>
+                    <div class="video-details">
+                      <h6 class="card-title rounded mt-2 mb-1">
+                        Lorem Ipsum 5
+                      </h6>
+                      <div class="user-details mb-1">
+                        <span class="user-placeholder"></span>
+                        <span class="ml-1">Username</span>
+                      </div>
+                      <div class="meta-info">
+                        <span class="views">1.4M views</span>
+                        <span class="separator">•</span>
+                        <span class="upload-date">1 month ago</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
